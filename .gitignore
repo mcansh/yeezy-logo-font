@@ -2,7 +2,8 @@
 # Created by https://www.gitignore.io/api/sass,codekit,osx
 
 ### Sass ###
-assets/css/.sass-cache
+assets/css/.sass-cache/
+.sass-cache/
 *.css.map
 
 
