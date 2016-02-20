@@ -1,0 +1,68 @@
+@font-face {
+  font-family: 'Yeezy';
+  src: url("../../fonts/yeezy_tstar-regular-webfont.ttf");
+  font-weight: normal; }
+@font-face {
+  font-family: 'Yeezy';
+  src: url("../../fonts/yeezy_tstar-bold-webfont.ttf");
+  font-weight: bold; }
+@font-face {
+  font-family: 'Yeezy';
+  src: url("../../fonts/yeezy_tstar-heavy-webfont.ttf");
+  font-weight: bolder; }
+@font-face {
+  font-family: 'Yeezy';
+  src: url("../../fonts/yeezy_tstar-light-webfont.ttf");
+  font-weight: lighter; }
+* {
+  margin: 0; }
+
+body {
+  font-family: "Yeezy";
+  background: #272727;
+  color: #635E5A; }
+
+main {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: calc(100vh - 40px); }
+  main .logo {
+    font-size: 15em; }
+  main code {
+    margin-top: 10px; }
+
+footer {
+  height: 40px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  footer a {
+    color: #635E5A;
+    -webkit-transition: 300ms all ease-in-out;
+    transition: 300ms all ease-in-out; }
+    footer a:hover {
+      color: #484542; }

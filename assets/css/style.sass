@@ -1,0 +1,36 @@
+@import "font"
+
+*
+  margin: 0
+
+$yeezy-bg:      #272727
+$yeezy-main:    #635E5A
+
+body
+  font-family: "Yeezy"
+  background: $yeezy-bg
+  color: $yeezy-main
+
+main
+  display: flex
+  justify-content: center
+  align-items: center
+  flex-direction: column
+  height: calc(100vh - 40px)
+
+  .logo
+    font-size: 15em
+
+  code
+    margin-top: 10px
+
+footer
+  height: 40px
+  display: flex
+  justify-content: center
+  align-items: center
+  a
+    color: $yeezy-main
+    transition: 300ms all ease-in-out
+    &:hover
+      color: darken($yeezy-main, 10%)
