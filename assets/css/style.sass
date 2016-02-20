@@ -17,9 +17,22 @@ main
   align-items: center
   flex-direction: column
   height: calc(100vh - 40px)
+  text-align: center
+  @media (max-width: 420px)
+    h1:first-child
+      font-size: 1.3em
+
 
   .logo
     font-size: 15em
+    @media (max-width: 550px)
+      font-size: 12em
+    @media (max-width: 440px)
+      font-size: 10em
+    @media (max-width: 375px)
+      font-size: 7em
+    @media (max-width: 325px)
+      font-size: 5em
 
   code
     margin-top: 10px
@@ -32,5 +45,6 @@ footer
   a
     color: $yeezy-main
     transition: 300ms all ease-in-out
+    text-decoration: none
     &:hover
       color: darken($yeezy-main, 10%)

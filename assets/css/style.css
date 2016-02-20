@@ -40,9 +40,25 @@ main {
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: calc(100vh - 40px); }
+  height: calc(100vh - 40px);
+  text-align: center; }
+  @media (max-width: 420px) {
+    main h1:first-child {
+      font-size: 1.3em; } }
   main .logo {
     font-size: 15em; }
+    @media (max-width: 550px) {
+      main .logo {
+        font-size: 12em; } }
+    @media (max-width: 440px) {
+      main .logo {
+        font-size: 10em; } }
+    @media (max-width: 375px) {
+      main .logo {
+        font-size: 7em; } }
+    @media (max-width: 325px) {
+      main .logo {
+        font-size: 5em; } }
   main code {
     margin-top: 10px; }
 
@@ -63,6 +79,7 @@ footer {
   footer a {
     color: #635E5A;
     -webkit-transition: 300ms all ease-in-out;
-    transition: 300ms all ease-in-out; }
+    transition: 300ms all ease-in-out;
+    text-decoration: none; }
     footer a:hover {
       color: #484542; }
